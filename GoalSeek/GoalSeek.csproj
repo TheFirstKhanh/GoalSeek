@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerShell.Commands.Diagnostics" Version="6.2.7" />
+    <PackageReference Include="Microsoft.PowerShell.Commands.Utility" Version="6.2.7" />
+    <PackageReference Include="Microsoft.PowerShell.ConsoleHost" Version="6.2.7" />
+    <PackageReference Include="Microsoft.PowerShell.SDK" Version="6.2.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.Management.Automation" Version="6.2.7" />
+  </ItemGroup>
+
+</Project>
